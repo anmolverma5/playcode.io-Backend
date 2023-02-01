@@ -1,0 +1,112 @@
+module.exports.constants = {
+  user: {
+    //Registration and Login
+    USERNAME_REQUIRED: "Email is required",
+    LOGIN_CODE: "Login code Send succesfully",
+    FIRSTNAME_REQUIRED: "Firstname is required",
+    LASTNAME_REQUIRED: "Lastname is required",
+    PHONE_REQUIRED: "Phone number is required",
+    EMAIL_REQUIRED: "Email is required",
+    EMAIL_EXIST: "Email-Id already exists.",
+    WRONG_EMAIL: "Email-Id does not exists",
+    PASSWORD_REQUIRED: "Password is required",
+    UNVERIFIED: "You have not verified your account. Please verify",
+    USERNAME_NOT_APPROVED: "You have not approved by the admin",
+    SUCCESSFULLY_REGISTERED: "Successfully registered",
+    SUCCESSFULLY_LOGGEDIN: "Successfully logged in",
+    WRONG_USERNAME: "Username does not exists",
+    WRONG_PASSWORD: "Password is wrong!",
+    CURRENT_PASSWORD: "Current Password is wrong!",
+    INVALID_USER: "Invalid User. Your email does not exist to our system.",
+    ALREADY_VERIFIED:
+      "You have already verified your email. Please login to website.",
+    ERROR_MAIL: "There is some error to send mail to your email id.",
+    LINK_MAIL: "Link for reset password has been sent to your email id.",
+    PASSWORD_CHANGED: "Password has been changed",
+    ROLE_REQUIRED: "Role is required.",
+    USERNAME_ALREADY: "Username is already exits.",
+    USERNAME_INACTIVE: "User is inactive",
+    CONPASSWORD_REQUIRED: "Confirm Password is required",
+    CURRENTPASSWORD_REQUIRED: "Current Password is required",
+    CONFIRM_PASSWORD_NOTMATCH: "Confirm Password is not Match",
+    ID_REQUIRED: "id Is Required",
+    UPDATED_USER: "User updated successfully.",
+    USERNAME_VERIFIED: "User is not verified.",
+    INVALID_CRED: "Invalid login credentials.",
+    COMPANY_REQUIRED: " Company id required.",
+    DOMAIN_REQUIRED: "Domain key required.",
+    CONTACT_ADMIN: "Unable to login. Please contact admin.",
+    INVALID_IP: "Ip address is not in whitelist.",
+    INVALID_LOCATION: "Unable to login .Please login at company's location.",
+  },
+
+  Role: {
+    ALREADY_EXIST: "Role already exist.",
+    CREATED: "Role created successfully.",
+    UPDATED: "Role updated successfully.",
+  },
+
+  plan: {
+    NAME_REQUIRED: "Plan name required.",
+    PRICE_REQUIRED: "Plan price required.",
+    ALREADY_EXIST: "Plan already exist.",
+    PLAN_CREATED: "Plan created successfully.",
+    PLAN_UPDATED: "Plan updated successfully.",
+  },
+  department: {
+    NAME: "Department name required.",
+    //  PRICE_REQUIRED: 'Plan price required.',
+    ALREADY_EXIST: "Department already exist.",
+    CREATED: "Department created successfully.",
+    UPDATED: "Department updated successfully.",
+    DELETED: "Department deleted successfully.",
+  },
+
+  messages: {
+    STATUS_CHANGED: "Status changed successfully.",
+    DATABASE_ISSUE: "Some issue occur . Please try after some time.",
+    DELETE_SUCCESS: "Record soft deleted.",
+    HARD_DELETE: "Record deleted permanently.",
+    ROLLBACK_SUCCESS: "Record rollback successfully.",
+    PATTEREN_ADDED: "Pattren added sucessfully.",
+    CARD_EXIST: "Card already exist.",
+    CARD_DELETED: "Card deleted successfully.",
+    CARD_ADDED: "Card added successfully.",
+    ALREADY_ACTIVE: "Plan already purchased and active.",
+  },
+
+  project: {
+    NAME: "Project name required.",
+    ID_REQUIRED: "Project id required.",
+
+    //  PRICE_REQUIRED: 'Plan price required.',
+    ALREADY_EXIST: "Project already exist.",
+    CREATED: "Project created successfully.",
+    UPDATED: "Project updated successfully.",
+    DELETED: "Project deleted successfully.",
+  },
+
+  contacts: {
+    CREATED: "Contact created successfully.",
+    UPDATED: "Contact updated successfully.",
+  },
+
+  payment: {
+    CARD_ID: "Card id required.",
+    CARD_ADDED: "Card added successfully.",
+    AMT_REQUIRED: "Payment amount required.",
+    SUCCESS: "Payment was successful. will be reaching out to you soon.",
+    NO_CARD: "You have not added any card. Please add the card.",
+    CARD_EXIST: "This card already exist.",
+    CARD_UPDATED: "Card updated successfully.",
+    CARD_UPDATION_FAIL:
+      "You card has not been updated, due to some technical issue.",
+    CARD_DELETED: "Card deleted successfully.",
+    NO_TRANSACTION: "No transaction found.",
+    REFUND_FAIL:
+      "Some technical issue during the refund, Please try after some time.",
+    REFUNDED: "Refunded successfully.",
+    REFUND_RESTRICTED: "This can't be refund.",
+    MANUALSUCCESS: "Payment done successfully",
+  },
+};
