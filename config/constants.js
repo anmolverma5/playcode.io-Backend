@@ -3,6 +3,7 @@ module.exports.constants = {
     //Registration and Login
     USERNAME_REQUIRED: "Email is required",
     LOGIN_CODE: "Login code Send succesfully",
+    LOGIN_CODE_REQUIRED: "Code is required",
     FIRSTNAME_REQUIRED: "Firstname is required",
     LASTNAME_REQUIRED: "Lastname is required",
     PHONE_REQUIRED: "Phone number is required",

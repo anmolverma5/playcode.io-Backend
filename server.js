@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 const jwt = require("jsonwebtoken");
 const register = require("./routes/login-register");
+const login = require("./routes/login");
 
 app.use("*", cors());
 app.use(
@@ -71,3 +72,4 @@ function authenticateToken(req, res, next) {
 
 /* ROUTES */
 app.use("/login-register", register);
+app.use("/login", login);
